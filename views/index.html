@@ -1,0 +1,18 @@
+{{include './tpl/Head'}}
+{{include './tpl/Header'}}
+    <div> 首页 </div>
+    <div> 值 </div>
+    <div> {{ user}} {{age}}</div>
+    <a href="/about">去关于页面</a>
+    <h3>好友列表</h3>
+    <img src='b2.jpg' alt="" style="width: 100%;">
+    <ul>
+        {{each list}}
+        <li>
+            好友姓名：{{$value.name}}--好友电话：{{$value.tel}}--好友邮箱：{{$value.email}}--好友地址：{{$value.address}}
+        </li>
+        {{/each}}
+
+    </ul>
+{{include './tpl/Footer'}}
+{{include './tpl/Foot'}}

@@ -1,0 +1,59 @@
+[2018-04-08 10:17:33][UncaughtException] Error: listen EACCES 0.0.0.0:80
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1337:19)
+    at listenInCluster (net.js:1395:12)
+    at Server.listen (net.js:1479:7)
+    at Varal.run (/project/varal/node_modules/varal/index.js:152:12)
+    at Object.<anonymous> (/project/varal/index.js:6:8)
+    at Module._compile (module.js:612:30)
+    at Object.Module._extensions..js (module.js:623:10)
+    at Module.load (module.js:531:32)
+[2018-04-08 11:33:09][UncaughtException] TypeError: server.engine is not a function
+    at Object.<anonymous> (/project/varal/index.js:9:8)
+    at Module._compile (module.js:612:30)
+    at Object.Module._extensions..js (module.js:623:10)
+    at Module.load (module.js:531:32)
+    at tryModuleLoad (module.js:494:12)
+    at Function.Module._load (module.js:486:3)
+    at Function.Module.runMain (module.js:653:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+[2018-04-08 11:35:39][UncaughtException] TypeError: server.engine is not a function
+    at Object.<anonymous> (/project/varal/index.js:9:8)
+    at Module._compile (module.js:612:30)
+    at Object.Module._extensions..js (module.js:623:10)
+    at Module.load (module.js:531:32)
+    at tryModuleLoad (module.js:494:12)
+    at Function.Module._load (module.js:486:3)
+    at Function.Module.runMain (module.js:653:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+[2018-04-08 14:03:56][Error] TypeError: Cannot read property 'render' of undefined
+    at Object.server.get [as callback] (/project/varal/index.js:17:6)
+    at Application.applyRouteResult (/project/varal/node_modules/varal/lib/application.js:236:35)
+    at iteratorHandler (/project/varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-08 14:06:39][Error] TemplateError: template not found: ENOENT: no such file or directory, open '/project/varal/views/index.art.html'
+[2018-04-08 14:06:55][Error] TemplateError: template not found: ENOENT: no such file or directory, open '/project/varal/views/index.art.html'
+[2018-04-08 14:07:02][Error] TemplateError: template not found: ENOENT: no such file or directory, open '/project/varal/views/index.html.html'
+[2018-04-08 14:07:10][Error] TemplateError: template not found: ENOENT: no such file or directory, open '/project/varal/views/index.html.html'
+[2018-04-08 14:50:40][Error] TemplateError: /project/varal/views/index.html:1:1
+ >> 1| {{include './tpl/Head'}}
+    2| {{include './tpl/Header'}}
+    3|     <div> 首页 </div>
+    4|     <div> 值 </div>
+
+RuntimeError: template not found: ENOENT: no such file or directory, open '/project/varal/views/tpl/Head.art'
+[2018-04-08 14:51:20][Error] TemplateError: /project/varal/views/index.html:1:1
+ >> 1| {{include './tpl/Head'}}
+    2| {{include './tpl/Header'}}
+    3|     <div> 首页 </div>
+    4|     <div> 值 </div>
+
+RuntimeError: template not found: ENOENT: no such file or directory, open '/project/varal/views/tpl/Head.art'
+[2018-04-08 14:55:16][Error] TemplateError: template not found: ENOENT: no such file or directory, open '/project/varal/views/index.html'

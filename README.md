@@ -1,6 +1,6 @@
 # node-varal-express-art-template
 
-# descript
+# describe
   node and varal module art-template
 
 # 2018-04-10

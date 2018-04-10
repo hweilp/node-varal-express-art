@@ -6,7 +6,7 @@
           content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>财米薪</title>
+    <title>Node服务器</title>
     <style type="text/css">
         html,body{
             width: 100%;
@@ -16,5 +16,7 @@
         li,ol,dl{list-style: none;}
         a{color: dodgerblue;font-size: 14px;text-decoration: none;}
     </style>
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+
 </head>
 <body>

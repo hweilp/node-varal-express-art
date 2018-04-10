@@ -1,0 +1,168 @@
+[2018-04-10 11:54:33][Error] /project/node-varal/controllers/IndexController.js:19
+	},
+	 ^
+
+SyntaxError: Unexpected token ,
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:576:28)
+    at Object.Module._extensions..js (module.js:623:10)
+    at Module.load (module.js:531:32)
+    at tryModuleLoad (module.js:494:12)
+    at Function.Module._load (module.js:486:3)
+    at Module.require (module.js:556:17)
+    at require (internal/module.js:11:18)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:241:37)
+[2018-04-10 11:54:48][Error] TypeError: abstract is not a constructor
+    at Application.make (/project/node-varal/node_modules/varal-container/index.js:41:24)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:242:37)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 11:55:28][Error] TypeError: abstract is not a constructor
+    at Application.make (/project/node-varal/node_modules/varal-container/index.js:41:24)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:242:37)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 11:55:31][Error] TypeError: abstract is not a constructor
+    at Application.make (/project/node-varal/node_modules/varal-container/index.js:41:24)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:242:37)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 12:07:03][Error] ReferenceError: app is not defined
+    at IndexController.index (/project/node-varal/controllers/IndexController.js:20:14)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 12:07:30][Error] Error: Cannot find module '/project/node-varal/services/UserApi'
+    at Function.Module._resolveFilename (module.js:513:15)
+    at Function.Module._load (module.js:463:25)
+    at Module.require (module.js:556:17)
+    at require (internal/module.js:11:18)
+    at Application.service (/project/node-varal/node_modules/varal/lib/application.js:346:25)
+    at IndexController.index (/project/node-varal/controllers/IndexController.js:20:23)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+[2018-04-10 12:09:34][Error] TypeError: abstract is not a constructor
+    at Application.make (/project/node-varal/node_modules/varal-container/index.js:41:24)
+    at Application.service (/project/node-varal/node_modules/varal/lib/application.js:347:31)
+    at IndexController.index (/project/node-varal/controllers/IndexController.js:20:23)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 14:16:46][Error] TypeError: this.app.send is not a function
+    at IndexController.getUserInfo (/project/node-varal/controllers/IndexController.js:24:12)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 14:19:32][Error] TypeError: this.app.send is not a function
+    at IndexController.getUserInfo (/project/node-varal/controllers/IndexController.js:25:12)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 14:20:10][Error] TypeError: this.app.send is not a function
+    at IndexController.getUserInfo (/project/node-varal/controllers/IndexController.js:25:12)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 14:25:37][Error] TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at Application.json (/project/node-varal/node_modules/varal/lib/application.js:299:21)
+    at IndexController.getUserInfo (/project/node-varal/controllers/IndexController.js:26:12)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 14:25:41][Error] TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at Application.json (/project/node-varal/node_modules/varal/lib/application.js:299:21)
+    at IndexController.updateUserInfo (/project/node-varal/controllers/IndexController.js:32:12)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 14:36:43][Error] TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at Application.json (/project/node-varal/node_modules/varal/lib/application.js:299:21)
+    at IndexController.updateUserInfo (/project/node-varal/controllers/IndexController.js:44:12)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 14:49:05][Error] SyntaxError: Identifier 'data' has already been declared
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 14:54:38][Error] SyntaxError: Identifier 'data' has already been declared
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 14:56:07][Error] TemplateError: template not found: ENOENT: no such file or directory, open '/project/node-varal/views/[object Object].html'
+[2018-04-10 15:06:15][Error] TypeError: this.app.all is not a function
+    at IndexController.getUserInfo (/project/node-varal/controllers/IndexController.js:36:12)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-04-10 15:18:06][Error] TypeError: this.app.all is not a function
+    at IndexController.getUserInfo (/project/node-varal/controllers/IndexController.js:36:12)
+    at Application.applyRouteResult (/project/node-varal/node_modules/varal/lib/application.js:243:49)
+    at iteratorHandler (/project/node-varal/node_modules/varal/lib/middleware.js:36:17)
+    at Middleware.handle (/project/node-varal/node_modules/varal/lib/middleware.js:23:9)
+    at Application.applyRoutes (/project/node-varal/node_modules/varal/lib/application.js:225:33)
+    at Application.handle (/project/node-varal/node_modules/varal/lib/application.js:163:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)

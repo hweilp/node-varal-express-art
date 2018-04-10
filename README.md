@@ -9,4 +9,4 @@
   1. npm install // cnpm install // yarn install 
   2. node index.js // 项目的入口文件
 
-# server at localhost:8888 
+# server runs on the localhost 8888 port
